@@ -1,0 +1,43 @@
+body {
+  background-color: #333;
+  height: auto;
+}
+header{
+  display: flex;
+  justify-content: space-around;
+}
+.link_cont {
+  align-items: center;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.cover {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.home {
+  border-bottom: 1px solid;
+  color: white;
+}
+.features {
+  color: rgba(255, 255, 255, 0.5);
+  
+}
+.contact {
+  color: rgba(255, 255, 255, 0.5);
+}
+.features:hover {
+  border-bottom: 1px solid;
+  color: rgba(255, 255, 255, 0.5);
+  
+}
+.contact:hover {
+  border-bottom: 1px solid;
+  color: rgba(255, 255, 255, 0.5);
+}
+a {
+  text-decoration: none;
+}
